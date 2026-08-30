@@ -1,7 +1,7 @@
 ## **Basic_Moco_2**
 
 <p align="center">
-  <img src="https://github.com/SHEDOOMTC/Basic_Moco_1/blob/main/Assets/Basic_Moco_1.png" alt="TrajMapQuick Logo" />
+  <img src="https://github.com/SHEDOOMTC/Basic_Moco_2/blob/main/Assets/Moco_2_visuals.png" />
 </p>
 
 **Basic Moco II** is the second series in the **BASIC MOCO SERIES**. Continuing the lessons started in **[Basic Moco I](https://github.com/SHEDOOMTC/Basic_Moco_1)**, **Basic MoCo II** stives to bring the foundational concepts of forcefields and molecular dynamics simulations implemented in both AmberTools and Gromacs. These have been routine workflow from us here at **[RESLAR Labs](https://www.linkedin.com/company/reslar-labs)**.
