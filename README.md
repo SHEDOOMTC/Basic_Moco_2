@@ -6,7 +6,7 @@
 
 ## **Course Overview**
 
-**Basic Moco II** is the second series in the **BASIC MOCO SERIES**. Continuing the lessons started in **[Basic Moco I](https://github.com/SHEDOOMTC/Basic_Moco_1)**, **Basic MoCo II** stives to bring the foundational concepts of forcefields and molecular dynamics simulations implemented in both AmberTools and Gromacs. These have been routine workflow from us here at **[RESLAR Labs](https://www.linkedin.com/company/reslar-labs)**.
+**Basic Moco II** is the second in the **BASIC MOCO SERIES**. Continuing the lessons started in **[Basic Moco I](https://github.com/SHEDOOMTC/Basic_Moco_1)**, **Basic MoCo II** stives to bring the foundational concepts of forcefields and molecular dynamics simulations implemented in both AmberTools and Gromacs. These have been routine workflow from us here at **[RESLAR Labs](https://www.linkedin.com/company/reslar-labs)**.
 
 Our goal remain the same: expose the learner to the basics and spur them to go ahead and learn more. A sound foundation in molecular modelling will set the stage for the upward climb. This course is suitable for undergraduate and early-career postgraduate students. As with every of of our courses, we hold that this course is far from being exhaustive; rather, it is an invitation to the endless world of science, computation, modelling and drug discovery.
 
