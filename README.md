@@ -18,7 +18,8 @@ A very special thanks to **[RESLAR Labs](https://www.linkedin.com/company/reslar
 - [Modules](#modules)  
   - [High Performance Computing (HPC) in Modern Biomolecular Simulations Module](#hpc-in-modern-biomolecular-simulations-module)  
   - [Advanced Python for Drug Disocvery Module](#advanced-python-for-drug-discovery-module)  
-  - [Theory: Molecular Mechanics and Dynamics Module](#theory-molecular-mechanics-and-dynamics-module)  
+  - [Theory: Molecular Mechanics and Dynamics Module](#theory-molecular-mechanics-and-dynamics-module)
+  - [File Types in Molecular Dynamics Simulation Module](#file-types-in-molecular-dynamics-simulation-module) 
   - [Forcefields, Periodic Boxes and Water Models Module](#forcefields-periodic-boxes-and-water-models-module)  
   - [Parametrization of Systems and Simulation Engines Module](#parametrization-of-systems-and-simulation-engines-module)  
   - [AmberTools and Workflow Module](#ambertools-and-workflow-module)
@@ -45,6 +46,7 @@ This is a basic course intended for undergraduate and early-career postgraduate 
 
 ## Theory: Molecular Mechanics and Dynamics Module
 
+## File Types in Molecular Dynamics Simulation Module
 
 ## Forcefields, Periodic Boxes and Water Models Module
 
