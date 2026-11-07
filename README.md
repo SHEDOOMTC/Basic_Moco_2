@@ -80,6 +80,8 @@ To run the Practicals:
 ```bash
 git clone https://github.com/SHEDOOMTC/xxxxxxx
 ```
+For each of the tutorial, there is a reference folder suffixed with "done" that contains the simulations already done. The learner can just make a copy into their working directory.
+
 ## For AmberTools
 ```bash
 conda env create --name AmberTools --file environment.yml
@@ -89,42 +91,61 @@ conda activate AmberTools
 ```bash
 # Create a folder for each run
 mkdir AmberTools_run && cd AmberTools_run
-#Copy the contents of each to their respective folders
-cp -r ../AmberTools_run_done/* .
 #Launch the associated Jupyter Notebook
 jupyter-notebook Practical_AmberTools.ipynb
-#or run 
-jupyter lab Practical_AmberTools.ipynb
-
 ```
 
 **For Analysis of Trajectories**
 ```bash
 # Create a folder for each run
 mkdir AmberTools_analysis && cd AmberTools_analysis
-#Copy the contents of each to their respective folders
-cp -r ../AmberTools_analysis_done/* .
 #Launch the associated Jupyter Notebook
 jupyter-notebook Practical_AmberTools_Analysis.ipynb
-#or run 
-jupyter lab Practical_AmberTools_Analysis.ipynb
 ```
 
 **For MMG/PBSA**
 ```bash
 # Create a folder for each run
 mkdir mmgbsa_run && cd mmgbsa_run
-#Copy the contents of each to their respective folders
-cp -r ../mmgbsa_run_done/* .
 #Launch the associated Jupyter Notebook
 jupyter-notebook Practical_AmberTools_mmgbsa.ipynb
-#or run 
-jupyter lab Practical_AmberTools_mmgbsa.ipynb
 ```
 
+## For Gromacs
 ```bash
+conda env create --name gromacs --file environment_gmx.yml
+conda activate gromacs
 ```
+**For MD Simulation run**
 ```bash
+# Create a folder for each run
+mkdir gromacs_run && cd gromacs_run
+#Launch the associated Jupyter Notebook
+jupyter-notebook Practical_Gromacs.ipynb
+```
+
+**For Analysis of Trajectories**
+```bash
+# Create a folder for each run
+mkdir gmx_analysis && cd gmx_analysis
+#Launch the associated Jupyter Notebook
+jupyter-notebook Practical_gmx_Analysis.ipynb
+```
+
+**For MMG/PBSA**
+```bash
+# Create a folder for each run
+mkdir mmgbsa_gmx_run && cd mmgbsa_gmx__run
+#Launch the associated Jupyter Notebook
+jupyter-notebook Practical_gmx_mmgbsa.ipynb
+```
+
+**For Umbrella Sampling**
+```bash
+# Create a folder for each run
+mkdir umbrella && cd umbrella
+#Launch the associated Jupyter Notebook
+jupyter-notebook Practical_Umbrella_Sampling.ipynb
 ```
 
 ## Frequently Asked Questions (FAQs)
