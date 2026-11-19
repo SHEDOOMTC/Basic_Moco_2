@@ -92,9 +92,9 @@ conda activate AmberTools
 # Create a folder for each run
 mkdir AmberTools_run && cd AmberTools_run
 # Copy the file into your WD
-cp ../Practical_AmberTools.ipynb .
+cp ../Practicals_AmberTools.ipynb .
 #Launch the associated Jupyter Notebook
-jupyter-notebook Practical_AmberTools.ipynb
+jupyter-notebook Practicals_AmberTools.ipynb
 ```
 
 **For Analysis of Trajectories**
