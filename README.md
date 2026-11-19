@@ -78,7 +78,7 @@ To run the Practicals:
 
 **Clone the Repository**
 ```bash
-git clone https://github.com/SHEDOOMTC/Basic_Moco_2.git
+git clone https://github.com/SHEDOOMTC/Basic_Moco_2.git && cd Basic_Moco_2
 ```
 **For each of the tutorial, there is a reference folder suffixed with "done" that contains the simulations already done. The learner can just make a copy into their working directory.**
 
