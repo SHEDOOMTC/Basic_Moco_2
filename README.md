@@ -91,7 +91,7 @@ conda activate AmberTools
 ```bash
 # Create a folder for each run
 mkdir AmberTools_run && cd AmberTools_run
-# Copy the file into your WD
+# Copy the Jupyter Notebook file into your working directory
 cp ../Practicals_AmberTools.ipynb .
 #Launch the associated Jupyter Notebook
 jupyter-notebook Practicals_AmberTools.ipynb
@@ -103,6 +103,8 @@ jupyter-notebook Practicals_AmberTools.ipynb
 ```bash
 # Create a folder for each run
 mkdir AmberTools_analysis && cd AmberTools_analysis
+# Copy the Jupyter Notebook file into your working directory
+cp ../Practicals_AmberTools_analysis.ipynb .
 #Launch the associated Jupyter Notebook
 jupyter-notebook Practical_AmberTools_Analysis.ipynb
 ```
