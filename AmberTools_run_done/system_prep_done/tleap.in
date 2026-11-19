@@ -1,0 +1,51 @@
+# Load the protein force field
+source leaprc.protein.ff14SB
+
+# Load the ligand force field
+source leaprc.gaff2
+
+# Load the ligand parameters
+loadamberparams jz4_ligand.frcmod
+
+# Load the water model
+source leaprc.water.tip3p
+
+# Load the ion parameters
+loadamberparams frcmod.ionsjc_tip3p
+
+# Set the default PBradii value
+set default PBradii mbondi3
+
+# Load the protein structure
+receptor = loadpdb 3HTB_protein_prep.pdb
+
+# Load the ligand structure
+jz4 = loadmol2 jz4_ligand.mol2
+
+# Combine the receptor and ligand
+complex = combine {receptor jz4}
+
+# Save the ligand topology and coordinates
+saveAmberParm jz4 jz4.top jz4.crd
+
+# Save the receptor topology and coordinates
+saveAmberParm receptor rec.top rec.crd
+
+# Save the complex topology and coordinates
+saveAmberParm complex com.top com.crd
+
+# Save the gas-phase complex PDB
+savepdb complex complex_gas.pdb
+
+# Solvate the complex with a 12 Å TIP3P water box
+solvateBox complex TIP3PBOX 12.0
+
+# Neutralize the system
+addIons complex Na+ 0
+addIons complex Cl- 0
+
+# Save the solvated, neutralized complex
+saveAmberParm complex complex.top complex.crd
+savePdb complex complex.pdb
+
+quit
