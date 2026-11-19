@@ -80,7 +80,7 @@ To run the Practicals:
 ```bash
 git clone https://github.com/SHEDOOMTC/xxxxxxx
 ```
-For each of the tutorial, there is a reference folder suffixed with "done" that contains the simulations already done. The learner can just make a copy into their working directory.
+**For each of the tutorial, there is a reference folder suffixed with "done" that contains the simulations already done. The learner can just make a copy into their working directory.**
 
 ## For AmberTools
 ```bash
