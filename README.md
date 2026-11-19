@@ -84,7 +84,7 @@ git clone https://github.com/SHEDOOMTC/xxxxxxx
 
 ## For AmberTools
 ```bash
-conda env create --name AmberTools --file environment.yml
+conda env create --name AmberTools --file environment_amber.yml
 conda activate AmberTools
 ```
 **For MD Simulation run**
