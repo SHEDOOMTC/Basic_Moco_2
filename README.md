@@ -98,6 +98,8 @@ jupyter-notebook Practicals_AmberTools.ipynb
 ```
 
 **For Analysis of Trajectories**
+
+*This uses the same set of trajectories from the mdrun above*
 ```bash
 # Create a folder for each run
 mkdir AmberTools_analysis && cd AmberTools_analysis
