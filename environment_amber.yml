@@ -6,13 +6,17 @@ channels:
 dependencies:
   - python=3.11
   - ambertools=25
+  
   - numpy
   - pandas
   - matplotlib
   - scipy
   - seaborn
-  - nglview
-  - notebook
-  - jupyterlab
+  
+  - jupyterlab=4.*
+  - notebook=7.*
+  - ipywidgets=8.*
+  - nglview=3.1.4
+  
   - ipykernel
   - pip
