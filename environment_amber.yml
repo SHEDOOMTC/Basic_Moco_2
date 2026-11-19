@@ -1,0 +1,20 @@
+name: AmberTools
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - ambertools=25
+  - pytraj
+  - mdtraj
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - seaborn
+  - nglview
+  - notebook
+  - jupyterlab
+  - ipykernel
+  - pip
