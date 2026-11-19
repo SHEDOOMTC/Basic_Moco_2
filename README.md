@@ -99,7 +99,7 @@ jupyter-notebook Practicals_AmberTools.ipynb
 
 **For Analysis of Trajectories**
 
-*This uses the same set of trajectories from the mdrun above*
+*This uses the same set of trajectories from the mdrun above. Due to size issue, download them from Zenodo and copy them into your working directory*
 ```bash
 # Create a folder for each run
 mkdir AmberTools_analysis && cd AmberTools_analysis
