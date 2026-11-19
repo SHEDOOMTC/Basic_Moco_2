@@ -7,6 +7,8 @@ dependencies:
   - python=3.11
   - ambertools=25
   
+  - mdtraj
+  
   - numpy
   - pandas
   - matplotlib
