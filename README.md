@@ -113,6 +113,8 @@ jupyter-notebook Practical_AmberTools_Analysis.ipynb
 ```bash
 # Create a folder for each run
 mkdir mmgbsa_run && cd mmgbsa_run
+# Copy the Jupyter Notebook file into your working directory
+cp ../Practicals_AmberTools_mmgbsa.ipynb .
 #Launch the associated Jupyter Notebook
 jupyter-notebook Practical_AmberTools_mmgbsa.ipynb
 ```
