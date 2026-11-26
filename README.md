@@ -128,6 +128,8 @@ conda activate gromacs
 ```bash
 # Create a folder for each run
 mkdir gromacs_run && cd gromacs_run
+# Copy the Jupyter Notebook file into your working directory
+cp ../Practical_Gromacs.ipynb .
 #Launch the associated Jupyter Notebook
 jupyter-notebook Practical_Gromacs.ipynb
 ```
@@ -136,14 +138,18 @@ jupyter-notebook Practical_Gromacs.ipynb
 ```bash
 # Create a folder for each run
 mkdir gmx_analysis && cd gmx_analysis
+# Copy the Jupyter Notebook file into your working directory
+cp ../Practical_gmx_analysis.ipynb .
 #Launch the associated Jupyter Notebook
-jupyter-notebook Practical_gmx_Analysis.ipynb
+jupyter-notebook Practical_gmx_analysis.ipynb
 ```
 
 **For MMG/PBSA**
 ```bash
 # Create a folder for each run
 mkdir mmgbsa_gmx_run && cd mmgbsa_gmx__run
+# Copy the Jupyter Notebook file into your working directory
+cp ../Practical_gmx_mmgbsa.ipynb .
 #Launch the associated Jupyter Notebook
 jupyter-notebook Practical_gmx_mmgbsa.ipynb
 ```
@@ -152,6 +158,8 @@ jupyter-notebook Practical_gmx_mmgbsa.ipynb
 ```bash
 # Create a folder for each run
 mkdir umbrella && cd umbrella
+# Copy the Jupyter Notebook file into your working directory
+cp ../Practical_Umbrella_Sampling.ipynb .
 #Launch the associated Jupyter Notebook
 jupyter-notebook Practical_Umbrella_Sampling.ipynb
 ```
