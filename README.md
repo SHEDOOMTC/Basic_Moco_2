@@ -106,7 +106,7 @@ mkdir AmberTools_analysis && cd AmberTools_analysis
 # Copy the Jupyter Notebook file into your working directory
 cp ../Practicals_AmberTools_analysis.ipynb .
 #Launch the associated Jupyter Notebook
-jupyter-notebook Practical_AmberTools_Analysis.ipynb
+jupyter-notebook Practicals_AmberTools_Analysis.ipynb
 ```
 
 **For MMG/PBSA**
@@ -116,7 +116,7 @@ mkdir mmgbsa_run && cd mmgbsa_run
 # Copy the Jupyter Notebook file into your working directory
 cp ../Practicals_AmberTools_mmgbsa.ipynb .
 #Launch the associated Jupyter Notebook
-jupyter-notebook Practical_AmberTools_mmgbsa.ipynb
+jupyter-notebook Practicals_AmberTools_mmgbsa.ipynb
 ```
 
 ## For Gromacs
@@ -131,7 +131,7 @@ mkdir gromacs_run && cd gromacs_run
 # Copy the Jupyter Notebook file into your working directory
 cp ../Practical_Gromacs.ipynb .
 #Launch the associated Jupyter Notebook
-jupyter-notebook Practical_Gromacs.ipynb
+jupyter-notebook Practicals_Gromacs.ipynb
 ```
 
 **For Analysis of Trajectories**
@@ -141,7 +141,7 @@ mkdir gmx_analysis && cd gmx_analysis
 # Copy the Jupyter Notebook file into your working directory
 cp ../Practical_gmx_analysis.ipynb .
 #Launch the associated Jupyter Notebook
-jupyter-notebook Practical_gmx_analysis.ipynb
+jupyter-notebook Practicals_gmx_analysis.ipynb
 ```
 
 **For MMG/PBSA**
@@ -151,7 +151,7 @@ mkdir mmgbsa_gmx_run && cd mmgbsa_gmx__run
 # Copy the Jupyter Notebook file into your working directory
 cp ../Practical_gmx_mmgbsa.ipynb .
 #Launch the associated Jupyter Notebook
-jupyter-notebook Practical_gmx_mmgbsa.ipynb
+jupyter-notebook Practicals_gmx_mmgbsa.ipynb
 ```
 
 **For Umbrella Sampling**
@@ -161,7 +161,7 @@ mkdir umbrella && cd umbrella
 # Copy the Jupyter Notebook file into your working directory
 cp ../Practical_Umbrella_Sampling.ipynb .
 #Launch the associated Jupyter Notebook
-jupyter-notebook Practical_Umbrella_Sampling.ipynb
+jupyter-notebook Practicals_Umbrella_Sampling.ipynb
 ```
 
 ## Frequently Asked Questions (FAQs)
